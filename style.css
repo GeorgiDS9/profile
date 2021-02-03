@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
   color: rgb(55, 55, 55);
-  background-color: #e8e8e8;
+  background-color: #ebebeb;
 }
 
 h1 {
@@ -53,6 +53,14 @@ p {
   color: white;
 }
 
+.fa-laptop-code {
+  color: #ec4646;
+}
+
+.fa-hand-point-down {
+  color: #bbbbbb;
+}
+
 .fa-code {
   color: #16697a;
 }
@@ -72,7 +80,7 @@ p {
 }
 
 .list-inline > li > a {
-  color: #e8e8e8;
+  color: #bbbbbb;
 }
 
 @media (max-width: 960px) {
