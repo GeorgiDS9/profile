@@ -1,0 +1,95 @@
+body {
+  font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+  color: rgb(55, 55, 55);
+  background-color: #e8e8e8;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h1, h2 {
+  font-weight: 500;
+  font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+  color: #11698e;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.card-white {
+  width: 600px;
+  background-color: white;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10px);
+  border-radius: 4px;
+}
+
+.btn-red {
+  background-color: #ec4646;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color .3s;
+}
+
+.btn-red:hover {
+  background-color: black;
+  color: white;
+}
+
+.fa-code {
+  color: #16697a;
+}
+
+.fa-seedling {
+  color: #5aa469;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.list-inline > li > a {
+  color: #e8e8e8;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
